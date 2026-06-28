@@ -10,16 +10,16 @@ let isAnimating=false;
 let teamDetailType='hayate';
 
 const allTypes=[
- {type:'hayate',name:'はやて',icon:'👨‍🚒',image:'images/characters/hayate.png',ability:'追い風',desc:'上下左右1。ナルカミの急降下を支える。'},
- {type:'shion',name:'しおん',icon:'👨‍🎤',image:'images/characters/shion.png',ability:'指揮',desc:'金の動き。マカミの奪取を支える。'},
- {type:'seori',name:'せおり',icon:'👩‍🦳',image:'images/characters/seori.png',ability:'招魂',desc:'前1・左右前斜め・後1。撃破でミタマ復活。'},
- {type:'janome',name:'じゃのめ',icon:'👱‍♀️',image:'images/characters/janome.png',ability:'共鳴',desc:'前1・後1・左右後ろ斜め。オロチを旋回させる。'},
- {type:'jin',name:'だん',icon:'🥷',image:'images/characters/dan.png',ability:'写し身',desc:'相手が直前に動かした駒の動きをコピー。'},
- {type:'narukami',name:'ナルカミ',icon:'🦅',image:'images/characters/narukami.png',ability:'急降下',desc:'上下左右2マス。はやて接触中は上下左右3マス。'},
- {type:'makami',name:'マカミ',icon:'🐺',image:'images/characters/makami.png',ability:'奪取',desc:'銀の動き。しおんの後ろから前の敵を奪取。'},
- {type:'mitama',name:'ミタマ',icon:'👻',image:'images/characters/mitama.png',ability:'輪廻転生',desc:'上下左右1。せおり撃破時、墓地から復活。'},
- {type:'orochi',name:'オロチ',icon:'🐍',image:'images/characters/orochi.png',ability:'旋回',desc:'斜め1。じゃのめ接触中は全方向1。'},
- {type:'luna',name:'ルナ',icon:'🐇',image:'images/characters/luna.png',ability:'',desc:'チェスのナイトの動き。'}
+ {type:'hayate',name:'はやて',icon:'👨‍🚒',image:'hayate.png',ability:'追い風',desc:'上下左右1。ナルカミの急降下を支える。'},
+ {type:'shion',name:'しおん',icon:'👨‍🎤',image:'shion.png',ability:'指揮',desc:'金の動き。マカミの奪取を支える。'},
+ {type:'seori',name:'せおり',icon:'👩‍🦳',image:'seori.png',ability:'招魂',desc:'前1・左右前斜め・後1。撃破でミタマ復活。'},
+ {type:'janome',name:'じゃのめ',icon:'👱‍♀️',image:'janome.png',ability:'共鳴',desc:'前1・後1・左右後ろ斜め。オロチを旋回させる。'},
+ {type:'jin',name:'だん',icon:'🥷',image:'dan.png',ability:'写し身',desc:'相手が直前に動かした駒の動きをコピー。'},
+ {type:'narukami',name:'ナルカミ',icon:'🦅',image:'narukami.png',ability:'急降下',desc:'上下左右2マス。はやて接触中は上下左右3マス。'},
+ {type:'makami',name:'マカミ',icon:'🐺',image:'makami.png',ability:'奪取',desc:'銀の動き。しおんの後ろから前の敵を奪取。'},
+ {type:'mitama',name:'ミタマ',icon:'👻',image:'mitama.png',ability:'輪廻転生',desc:'上下左右1。せおり撃破時、墓地から復活。'},
+ {type:'orochi',name:'オロチ',icon:'🐍',image:'orochi.png',ability:'旋回',desc:'斜め1。じゃのめ接触中は全方向1。'},
+ {type:'luna',name:'ルナ',icon:'🐇',image:'luna.png',ability:'',desc:'チェスのナイトの動き。'}
 ];
 
 
